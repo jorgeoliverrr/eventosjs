@@ -59,3 +59,5 @@
 $("div").on("click", function() {
     $(this).css("background-color", "red");
 }); 
+
+// https://stackoverflow.com/questions/19896374/jquery-change-background-color-if
