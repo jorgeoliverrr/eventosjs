@@ -37,8 +37,21 @@
 // this -> elemento trabajando bajo el contexto -> elemento que se le hace el click
 // $(this) -> es un elemento de jquery
 
-$(function(){
-    $('body div').on('click', function(e){
-        console.log('hola')
-    })
-})
+// $(function(){
+//    $('body div').on('click', function(e){
+//        console.log('hola')
+//    })
+// })
+
+// $(function() {
+//    $('.section h2').on('click', function(){
+//        var h2 = $(this)
+//        var isClosed = h2.next().hasClass('close')
+//        $('.section').each(function(el) {
+//            $(this).children('p').addClass('close')
+//        })
+//        if (isClosed){
+//            h2.next().removeClass('close')
+//       }
+//    })
+//})
